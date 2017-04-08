@@ -1,6 +1,6 @@
-module arrayfire_d.arith;
+module arrayfire.arith;
 
-import arrayfire_d.defines;
+import arrayfire.defines;
 
 extern( C ){
 

@@ -1,2 +1,2 @@
-# arrayfire-d
+# arrayfire
 D-lang bindings for arrayfire

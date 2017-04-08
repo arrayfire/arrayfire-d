@@ -1,4 +1,4 @@
-module arrayfire_d.af_version;
+module arrayfire.af_version;
 
 const string VERSION = "3.4.0";
 const int AF_VERSION_MAJOR = 3;
