@@ -1,0 +1,10 @@
+{
+	"name": "arrayfire_d",
+	"authors": [
+		"Prasun Anand"
+	],
+  "libs": ["afcuda", "cusolver", "cudart", "cufft", "cublas"],
+	"description": "D bindings for ArrayFire library",
+	"copyright": "Copyright (c) 2017, Prasun Anand and ArrayFire",
+	"license": "BSD-3-Clause"
+}
