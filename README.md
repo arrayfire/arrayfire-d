@@ -6,7 +6,7 @@ CPUs, GPUs, and other hardware acceleration devices.
 
 `arrayfire-d` is a D binding for ArrayFire.
 
-#Installation
+# Installation
 
 
 
