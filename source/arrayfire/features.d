@@ -22,7 +22,7 @@ extern ( C ) {
 
   af_err af_get_features_size(af_array *size, const af_features feat);
 
-    // Destroy af_features
+  // Destroy af_features
   af_err af_release_features(af_features feat);
 
 }
