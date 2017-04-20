@@ -1,0 +1,16 @@
+{
+	"name": "arrayfire",
+	"authors": [
+		"Prasun Anand"
+	],
+	"description": "ArrayFire: a general purpose GPU library.",
+	"copyright": "Copyright (c) 2017, Prasun Anand and ArrayFire",
+	"license": "BSD-3-Clause",
+  "configurations": [
+    {"name": "library", "targetType": "library"},
+    {"name": "source", "targetType": "sourceLibrary"},
+    {"name": "static", "targetType": "staticLibrary"},
+    {"name": "dynamic", "targetType": "dynamicLibrary"},
+    {"name": "binary", "targetType": "executable"}
+  ]
+}
