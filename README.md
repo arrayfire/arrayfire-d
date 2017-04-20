@@ -9,6 +9,36 @@ CPUs, GPUs, and other hardware acceleration devices.
 # Installation
 
 
+# Specifying Backend:
+
+ArrayFire library supports the following backends:
+* CPU : `afcpu`
+* OpenCL : `afopencl`
+* CUDA : `afcuda`
+* Unified backend :  `af`
+
+To specify the backend you want to use place it in your `dub.json` file.
+
+For example, if you have a Nvidia GPU and want to use the CUDA backend:
+
+`dub.json`:
+```json
+{
+  "name": "af_example",
+  "authors": [
+    "John Doe"
+  ],
+  "libs": ["afcuda"],
+  "description": "ArrayFire Example"
+}
+
+```
+
+If you specify `af` as ArrayFire backend, the following preference would be used by ArrayFire
+to harvest maximum efficiency:
+1. CUDA
+2. OpenCL
+3. CPU
 
 # LICENSE
 

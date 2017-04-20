@@ -3,7 +3,6 @@
 	"authors": [
 		"Prasun Anand"
 	],
-  "libs": ["afcuda", "cusolver", "cudart", "cufft", "cublas"],
 	"description": "ArrayFire: a general purpose GPU library.",
 	"copyright": "Copyright (c) 2017, Prasun Anand and ArrayFire",
 	"license": "BSD-3-Clause",
