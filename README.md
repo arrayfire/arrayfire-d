@@ -8,6 +8,19 @@ CPUs, GPUs, and other hardware acceleration devices.
 
 # Installation
 
+## Getting ArrayFire
+
+To install `arrayfire` library, see [resource](https://github.com/arrayfire/arrayfire/wiki).
+
+## Using `arrayfire_d`
+
+Add `arrayfire_d` in dub.json as a dependency.
+
+```json
+  "dependencies": {
+    "arrayfire_d": "~>0.1.0"
+  }
+```
 
 # Specifying Backend:
 
